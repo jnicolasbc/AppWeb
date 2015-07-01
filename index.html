@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Realtor | Real Estate HTML5 Template</title>
+<title>Directorio Medico | Tus Especialistas</title>
 <meta name="keywords" content="HTML5,CSS3,HTML,Template,Multi-Purpose,M_Adnan,Corporate Theme,Realtor | Real Estate HTML5 Templates" >
 <meta name="description" content="Realtor | Real Estate HTML5 Template">
 <meta name="author" content="M_Adnan">
@@ -28,34 +28,70 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+<style>
+::-webkit-input-placeholder {
+   color: red;
+}
+  .search-home {
+  background: #fff;
+  border: solid 1px #6f7275;
+  border-radius: 8px;
+  box-shadow: 0 0 40px rgba(255,255,255,.5);
+  padding: 4px 4px 4px 20px;
+  position: relative;
+}
+  .textBox {
+  background: #fff;
+  border: 0;
+  float: left;
+  font-size: 26px;
+  height:60px;
+  outline: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+  width: 76%;
+}
+ .btn-promo {
+  border-bottom: solid 2px transparent;
+  float: right;
+  padding: 0;
+}
+.btn {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: inline-block;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
 
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}
+  .btn-promo {
+    margin-top:0px;
+  color: #fff;
+  font-size: 18px;
+  padding: 18px 40px 15px 40px;
+  background: #8d36a4;
+  border: solid 2px transparent;
+  border-bottom: solid 2px #4d1c5a;
+  font-weight: bold;
+  border-radius: 6px;
+  text-transform: uppercase;
+  }
+</style>
 </head>
 <body>
 <!-- Page Wrap ===========================================-->
 <div id="wrap" class="home-1"> 
-  
-  <!--======= TOP BAR =========-->
-  <div class="top-bar">
-    <div class="container">
-      <ul class="left-bar-side">
-        <li>
-          <p><i class="fa fa-phone"></i> Call Us Now : +01 123 456 78 </p>
-          <span>|</span> </li>
-        <li>
-          <p><i class="fa fa-envelope-o"></i> Info@ourinfomail.com </p>
-          <span>|</span> </li>
-        <li>
-          <p><i class="fa fa-lock"></i> Login / Register </p>
-          <span>|</span> </li>
-      </ul>
-      <ul class="right-bar-side social_icons">
-        <li class="facebook"> <a href="#."><i class="fa fa-facebook"></i> </a></li>
-        <li class="twitter"> <a href="#."><i class="fa fa-twitter"></i> </a></li>
-        <li class="linkedin"> <a href="#."><i class="fa fa-linkedin"></i> </a></li>
-        <li class="tumblr"> <a href="#."><i class="fa fa-tumblr"></i> </a></li>
-      </ul>
-    </div>
-  </div>
   
   <!--======= HEADER =========-->
   <header class="sticky">
@@ -137,98 +173,15 @@
     <!--======= FIND PROPERTY =========-->
     <div class="finder">
       <div class="container">
-        <h1>Welcome to realtor</h1>
-        
+        <h1>TusEspecialistas.Com</h1>
         <!--======= FORM SECTION =========-->
-        <div class="find-sec">
-          <ul class="row">
-            
-            <!--======= FORM =========-->
-            <li class="col-sm-3">
-              <label>Choose The City</label>
-              <select class="selectpicker">
-                <option>New York</option>
-                <option>Sydany</option>
-                <option>Relish</option>
-              </select>
-            </li>
-            
-            <!--======= FORM =========-->
-            <li class="col-sm-3">
-              <label>Location</label>
-              <select class="selectpicker">
-                <option>National parks</option>
-                <option>State parks</option>
-                <option>City parks</option>
-              </select>
-            </li>
-            
-            <!--======= FORM =========-->
-            <li class="col-sm-3">
-              <label>Property Status</label>
-              <select class="selectpicker">
-                <option>Appartment</option>
-                <option>House</option>
-                <option>Villa</option>
-                <option>Land</option>
-              </select>
-            </li>
-            
-            <!--======= FORM =========-->
-            <li class="col-sm-3">
-              <label>Property Type</label>
-              <select class="selectpicker">
-                <option>Choose</option>
-                <option>Rent</option>
-                <option>Sale</option>
-              </select>
-            </li>
-            
-            <!--======= FORM =========-->
-            <li class="col-sm-3">
-              <label>No of Bedrooms</label>
-              <select class="selectpicker">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </li>
-            
-            <!--======= FORM =========-->
-            <li class="col-sm-3">
-              <label>No of Bathrooms</label>
-              <select class="selectpicker">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </li>
-            
-            <!--======= Pricing Range =========-->
-            <li class="col-sm-6">
-              <div class="row">
-                <div class="col-xs-9">
-                  <div class="cost-price-content">
-                    <label>Pricing Range: <span id="price-min" class="price-min"></span> <i>-</i> <span id="price-max" class="price-max"></span></label>
-                    <div id="price-range" class="price-range"></div>
-                  </div>
-                </div>
-                
-                <!--======= BUTTON =========-->
-                <div class="col-xs-3 search">
-                  <button type="submit" class="btn">Search</button>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <form action="/search" method="post">    <fieldset class="search-home">
+              <input autocomplete="off" class="textBox" id="SearchTerms" maxlength="150" name="SearchTerms" placeholder="Busca por nombre, especialidad, ciudad, enfermedad..." type="text" value="">
+                  <input type="submit" value="Buscar" class="btn btn-promo">
+          </fieldset>
+        </form>
       </div>
     </div>
-    
   </div>
   
    
