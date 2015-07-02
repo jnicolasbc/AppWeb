@@ -323,7 +323,7 @@ header:before {
 	content: "";
 	position: absolute;
 	width: 38%;
-	background: #f2f0f0;
+	background: #ffffff;
 	height: 100%;
 	z-index: -1;
 }
@@ -805,6 +805,11 @@ ul.dropdown li:hover {
 	line-height: 24px;
 	font-style: italic;
 	margin: 0;
+}
+
+
+.title{
+	color: red !important;
 }
 /*----------------------------------------------------------------*/
 /*----------------------------------------------------------------*/
